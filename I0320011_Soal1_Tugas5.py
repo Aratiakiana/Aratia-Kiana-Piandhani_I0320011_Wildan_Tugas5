@@ -4,5 +4,5 @@ JenisKelamin = input("Masukkan Jenis Kelamin (L/P) :")
 # Memasukkan nama dan jenis kelamin
 if JenisKelamin == "L" :
     print("Selamat datang, Tuan",NamaPengunjung,"!")
-elif JenisKelamin == "P" :
+else:
     print("Selamat datang, Nyonya",NamaPengunjung,"!")
